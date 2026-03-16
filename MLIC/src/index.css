@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@font-face {
+    font-family: Clarity-City;
+    src: url(./assets/font/ClarityCity-Regular.otf);
+}
+
+*{
+    font-family: Clarity-City;
+}
+
+html,body{
+    /* margin-left: 3rem;
+    margin-right: 3rem; */
+    background-color: black;
+    color: white;
+}
