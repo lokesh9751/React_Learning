@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Custom;
+    src: url(./assets/fonts/Emerald\ Crown.ttf);
+}
+
+@font-face {
+    font-family: Custom_2;
+    src: url(./assets/fonts/Heavitas.ttf);
+}
+
+@font-face {
+    font-family: Custom_3;
+    src: url(./assets/fonts/BebasKai.ttf);
+}
+
+.font_custom{
+    font-family: Custom_2;
+}
+html,body{
+    background-color: #11120D;
+    color: #D8CFBC;
+}
+
+.heading{
+    font-family: Custom;
+}
+
+.sub_heading{
+    font-family: Custom_3
+}
+
+.input_front_font{
+    font-family: Custom_2;
+}
+
